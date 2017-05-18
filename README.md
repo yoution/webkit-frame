@@ -1,5 +1,7 @@
-##webkit Frame 研究
-###打点系统
+webkit Frame 研究
+====
+打点系统
+-------
 * events:WebCore/inspector/inspectorinstrumention.cpp
 * events:WebCore/inspector/InspectorTimelineAgent.cpp
 * *runLoopObserverFired* WebCore/platform/cf/RunLoopObserver.cpp
@@ -8,7 +10,8 @@
 * *doDispatchMessageOnFrontendPage* WebCore/inspector/InspectorClient.cpp
 
 
-###内部事件
+内部事件
+------
 * *willRecalwillRecalculateStyle* Document::resolveStyle   
 * *willRecalwillRecalculateStyle* Document::resolveStyle   
 * *didScheduleStyleRecalculation* Document::scheduleStyleRecalc 
