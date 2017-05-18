@@ -1,8 +1,10 @@
 webkit Frame 研究
 ====
+开启timeline record后才会走入断点，否则不走
+
 打点系统
 -------
-* events:WebCore/inspector/inspectorinstrumentation.cpp
+* events:WebCore/inspector/Inspectorinstrumentation.cpp
 * events:WebCore/inspector/InspectorTimelineAgent.cpp
 * *runLoopObserverFired* WebCore/platform/cf/RunLoopObserver.cpp
 * *m_frameStartObserver* WebCore/inspector/InspectorTimelineAgent.cpp
