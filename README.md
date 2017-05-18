@@ -2,7 +2,7 @@ webkit Frame 研究
 ====
 打点系统
 -------
-* events:WebCore/inspector/inspectorinstrumention.cpp
+* events:WebCore/inspector/inspectorinstrumentation.cpp
 * events:WebCore/inspector/InspectorTimelineAgent.cpp
 * *runLoopObserverFired* WebCore/platform/cf/RunLoopObserver.cpp
 * *m_frameStartObserver* WebCore/inspector/InspectorTimelineAgent.cpp
